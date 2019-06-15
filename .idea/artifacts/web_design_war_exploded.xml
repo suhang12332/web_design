@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web_design:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_design_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="web_design/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web_design" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="JUnit4" module-name="web_design" />
+          <element id="library" level="project" name="c3p0-0.9.5.2" />
+          <element id="library" level="project" name="lombok-1.18.8" />
+          <element id="library" level="project" name="json-lib-2.4-jdk15" />
+          <element id="library" level="project" name="fastjson-1.2.58" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="javax.mail" />
+          <element id="library" level="project" name="activation-1.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
